@@ -1,0 +1,361 @@
+.main{
+    height: 500px;
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+}
+
+.main--nav{
+    width: 30%;
+    height: auto;
+}
+
+.main--nav--info{
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: rgb(197, 195, 195) 1px solid;
+}
+
+.main--nav--info--home, .main--nav--info--friend{
+    display: flex;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+.main--nav--info--home i, .main--nav--info--friend i{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.main--nav--info--home{
+    color: red;
+    font-size: 22px;
+}
+
+.main--nav--info--home h2, .main--nav--info--friend h2{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.main--nav--info--friend{
+    font-size: 22px;
+    color: black;
+}
+
+/* main-nav-friend */
+.main--nav--friend--title{
+    font-size: 16px;
+    color: rgb(144, 144, 144);
+}
+
+.main--nav--friend{
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: rgb(197, 195, 195) 1px solid;
+}
+
+.main--nav--friend--content{
+    display: flex;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+.main--nav--friend--content--img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.main--nav--friend--content--img img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.main--nav--friend--content h2{
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.main--nav--friend--content{
+    font-size: 22px;
+    color: black;
+}
+
+.main--nav--friend--listall{
+    margin-top: 10px;
+}
+
+.main--nav--friend--listall a{
+    text-decoration: none;
+    color: red;
+    margin-top: 20px;
+}
+
+.main--nav--friend--listall a:hover{
+    background-color: white;
+}
+/* main-nav-friendpropose */
+.main--nav--friendpropose--title{
+    font-size: 16px;
+    color: rgb(144, 144, 144);
+}
+
+.main--nav--friendpropose{
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: rgb(197, 195, 195) 1px solid;
+}
+
+.main--nav--friendpropose--content{
+    display: flex;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+.main--nav--friendpropose--content--img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.main--nav--friendpropose--content--img img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.main--nav--friendpropose--content h2{
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.main--nav--friendpropose--content{
+    font-size: 22px;
+    color: black;
+}
+
+.button--addfriend{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.button--addfriend button{
+    margin-left: 70px;
+    height: 30px;
+    width: 80px;
+    background-color: white;
+    border: red 0.5px solid;
+    color: red;
+}
+
+.add--post{
+    width: 90%;
+    min-height: 150px;
+    height: auto;
+    background-color: rgb(231, 227, 227);
+    border-radius: 20px;
+    margin-top: 20px;
+    user-select: none;
+}
+
+.add--post--input{
+    height: auto;
+    min-height: 100px;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.add--post--input textarea{
+    width: 90%;
+    min-height: 60px;
+    font-size: 20px;
+    resize: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border:none;
+    outline: none
+}
+
+.add--post--action{
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.add--post--action--img, .add--post--action--push{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.add--post--action--img i, .add--post--action--push i{
+    font-size: 28px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.add--post--action--img h5, .add--post--action--push h5{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.add--post--action--img:hover, .add--post--action--push:hover{
+    background-color: rgb(200, 198, 198);
+    border-radius: 20px;
+}
+
+
+/* --- main--post --- */
+.main--post{
+    width: 70%;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.main--post--content{
+    height: auto;
+    width: 100%;
+    display: flex;
+    border-bottom: 0.5px rgb(197, 195, 195) solid;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+
+.post--avatar{
+    width: 10%;
+    height: auto;
+}
+
+.post--avatar img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.post--content{
+    width: 70%;
+    height: auto;
+}
+
+.post--content a{
+    text-decoration: none;
+    font-family: 'Zen Antique', serif;
+    font-size: 22px;
+    font-weight: 1000;
+    text-transform: capitalize;
+    color: black;
+}
+
+.post--content a:hover{
+    background-color: transparent;
+}
+
+
+.post--content p{
+    font-size: 18px;
+    width: 100%;
+    font-family: 'Zen Antique', serif;
+    font-weight: 400;
+    color: rgb(102, 99, 99);
+}
+
+.post--img{
+    width: 100%;
+    height: auto;
+}
+
+.post--img img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    image-rendering: pixelated;
+}
+
+.post--action {
+    width: 20%; 
+    position: relative;
+}
+
+.post--action1{
+    background-color: rgb(231, 227, 227);
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 120px;
+    left: 10px;
+    border-radius: 50%;
+    user-select: none;
+}
+
+.post--action2{
+    background-color: rgb(231, 227, 227);
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    border-radius: 50%;
+    user-select: none;
+}
+
+.post--action1 h5, .post--action2 h5{
+    position: absolute;
+    left: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(102, 99, 99);;
+}
+
+.post--action--like i, .post--action--comment i{
+    height: 50px;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.back--to--top{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(231, 227, 227);
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    user-select: none;
+    border-radius: 30%;
+}
+
+.back--to--top i{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+}
