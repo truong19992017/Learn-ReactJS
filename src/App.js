@@ -1,5 +1,7 @@
 import Header from "./components/Layout/Header";
 import Main from "./components/Main/Main";
+import Data from "./Data"
+import BackToTop from "./components/Layout/BackToTop";
 
 function App() {
 
@@ -10,12 +12,11 @@ function App() {
 
   return (
     <div className="App">
-      <Header/>
-      <Main/>
-
-      <div className="back--to--top">
-        <i className="fas fa-arrow-up" />
-      </div>
+      <Data>
+        <Header/>
+        <Main/>
+        <BackToTop/>
+      </Data>
     </div>
   );
 }
