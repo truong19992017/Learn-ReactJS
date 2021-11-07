@@ -15,7 +15,7 @@ export default class Data extends Component {
             },
             {
                 name: "Lê Văn Tèo", 
-                avatarImg: "https://phunugioi.com/wp-content/uploads/2020/01/anh-avatar-supreme-dep-lam-dai-dien-facebook.jpg", 
+                avatarImg: "https://i2.wp.com/scr.vn/wp-content/uploads/2020/07/avt-cute.jpg?resize=575%2C575&ssl=1", 
                 date: "1/4/2021", 
                 content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id accumsan lectus, nec ultricies libero. Proin finibus sagittis varius. Donec tempor id leo quis commodo. Nam hendrerit, augue nec maximus placerat, ligula dolor varius leo, sed sagittis justo ligula et justo. Proin congue neque ut ipsum dignissim pellentesque. ",
                 img: "https://i.pinimg.com/originals/ce/12/25/ce1225f92e766b3a87113dc69560e88f.jpg", 
@@ -24,7 +24,7 @@ export default class Data extends Component {
             },
             {
                 name: "Nguyễn Tím", 
-                avatarImg: "https://phunugioi.com/wp-content/uploads/2020/01/anh-avatar-supreme-dep-lam-dai-dien-facebook.jpg", 
+                avatarImg: "https://toigingiuvedep.vn/wp-content/uploads/2021/05/hinh-anh-avatar-de-thuong.jpg", 
                 date: "13/6/2020", 
                 content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id accumsan lectus, nec ultricies libero. Proin finibus sagittis varius. Donec tempor id leo quis commodo. Nam hendrerit, augue nec maximus placerat, ligula dolor varius leo, sed sagittis justo ligula et justo. Proin congue neque ut ipsum dignissim pellentesque. ",
                 img: "https://i.ytimg.com/vi/YYG2TuqoTyo/maxresdefault.jpg", 
@@ -33,7 +33,7 @@ export default class Data extends Component {
             },
             {
                 name: "Luis Vui Tươi", 
-                avatarImg: "https://phunugioi.com/wp-content/uploads/2020/01/anh-avatar-supreme-dep-lam-dai-dien-facebook.jpg", 
+                avatarImg: "https://imgt.taimienphi.vn/cf/Images/tt/2021/8/17/hinh-nen-vit-avatar-anh-vit-cute-ngoc-nghech-39.jpg", 
                 date: "21/2/2020", 
                 content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id accumsan lectus, nec ultricies libero. Proin finibus sagittis varius. Donec tempor id leo quis commodo. Nam hendrerit, augue nec maximus placerat, ligula dolor varius leo, sed sagittis justo ligula et justo. Proin congue neque ut ipsum dignissim pellentesque. ",
                 img: "https://i.pinimg.com/originals/3d/c4/49/3dc449b04d9ace524a0ecd247e1fdc83.png", 
