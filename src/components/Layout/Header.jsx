@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import './Header.css';
+import { Link } from "react-router-dom";
 
 class Header extends Component {
     render() {
         return (
             <header className="header">
                 <div className="header--main">
-                    <div className="header--logo">
+                    <Link to="/" className="header--logo">
                         <img src="https://sf16.byteicdn.com/obj/tiktok-web/tiktok/web/node/_next/static/images/logo-whole-c555aa707602e714ec956ac96e9db366.svg" alt="logo" />
-                    </div>
+                    </Link>
                     <div className="header--search">
                         <form className="header--search--form" action="">
                             <input className="header--search--form--input" placeholder="tìm kiếm tài khoản" type="text" />

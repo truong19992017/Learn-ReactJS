@@ -1,25 +1,26 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 
 class MainFriend extends Component {
     render() {
         return (
             <div className="main--nav--friend">
                 <h3 className="main--nav--friend--title">danh sách bạn</h3>
-                <a className="main--nav--friend--content">
+                <Link className="main--nav--friend--content">
                     <div className="main--nav--friend--content--img">
                         <img src="https://phunugioi.com/wp-content/uploads/2020/01/anh-avatar-supreme-dep-lam-dai-dien-facebook.jpg"/></div>
                     <h2>Lê Văn Tèo</h2>
-                </a>
-                <a className="main--nav--friend--content">
+                </Link>
+                <Link className="main--nav--friend--content">
                     <div className="main--nav--friend--content--img">
                         <img src="https://phunugioi.com/wp-content/uploads/2020/01/anh-avatar-supreme-dep-lam-dai-dien-facebook.jpg"/></div>
                     <h2>Lê Văn Tèo</h2>
-                </a>
-                <a className="main--nav--friend--content">
+                </Link>
+                <Link className="main--nav--friend--content">
                     <div className="main--nav--friend--content--img">
                         <img src="https://phunugioi.com/wp-content/uploads/2020/01/anh-avatar-supreme-dep-lam-dai-dien-facebook.jpg"/></div>
                     <h2>Lê Văn Tèo</h2>
-                </a>
+                </Link>
                 <div className="main--nav--friend--listall">
                     <a>Xem tất cả</a>
                 </div>
