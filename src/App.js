@@ -2,6 +2,8 @@ import Header from "./components/Layout/Header";
 import Main from "./components/Main/Main";
 import Data from "./Data"
 import BackToTop from "./components/Layout/BackToTop";
+import { Routes, Route } from "react-router-dom";
+import Info from "./components/Info";
 
 function App() {
 
@@ -13,9 +15,14 @@ function App() {
   return (
     <div className="App">
       <Data>
-        <Header/>
-        <Main/>
-        <BackToTop/>
+          <Header/>
+          
+          <Routes>
+          <Route path="/" element={<Main/>}/>
+          <Route path="/info" element={<Info/>}/>
+          </Routes>
+    
+          <BackToTop/>
       </Data>
     </div>
   );
