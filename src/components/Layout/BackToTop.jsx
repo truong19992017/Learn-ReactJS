@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class BackToTop extends Component {
     backToTop(){
-        document.documentElement.scrollTop = 0;
+        document.documentElement.scrollIntoView({behavior: "smooth"});
     }
     render() {
         return (
