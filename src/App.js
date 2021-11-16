@@ -3,15 +3,9 @@ import Main from "./components/Main/Main";
 import Data from "./Data"
 import BackToTop from "./components/Layout/BackToTop";
 import { Routes, Route } from "react-router-dom";
-import Info from "./components/Info";
+import MainInfo from './components/Main/MainInfo/MainInfo';
 
 function App() {
-
-  function backToTop(){
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-  }
-
   return (
     <div className="App">
       <Data>
@@ -19,7 +13,7 @@ function App() {
           
           <Routes>
           <Route path="/" element={<Main/>}/>
-          <Route path="/info" element={<Info/>}/>
+          <Route path="/info" element={<MainInfo/>}/>
           </Routes>
     
           <BackToTop/>
