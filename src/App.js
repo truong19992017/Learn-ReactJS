@@ -4,6 +4,7 @@ import Data from "./Data"
 import BackToTop from "./components/Layout/BackToTop";
 import { Routes, Route } from "react-router-dom";
 import MainInfo from './components/Main/MainInfo/MainInfo';
+import Friends from "./components/Main/Friends/Friends";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Routes>
           <Route path="/" element={<Main/>}/>
           <Route path="/info" element={<MainInfo/>}/>
+          <Route path="/friends" element={<Friends/>}/>
           </Routes>
     
           <BackToTop/>
