@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import './MainInfo.css'
+import { Outlet } from "react-router-dom";
 
 class MainInfo extends Component {
   render() {
@@ -30,9 +31,6 @@ class MainInfo extends Component {
           <div className="main--info--content3">
             <div className="main--info--content3--post">
               <a href>Post</a>
-            </div>
-            <div className="main--info--content3--friend">
-              <a href>Friend</a>
             </div>
           </div>
         </div>

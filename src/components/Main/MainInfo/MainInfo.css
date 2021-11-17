@@ -58,18 +58,18 @@
     box-sizing: border-box;
 }
 
-.main--info--content3--post, .main--info--content3--friend{
+.main--info--content3--post{
     height: 100%;
-    width: 50%;
+    width: 100%;
     text-align: center;
     border-bottom: 2px black solid;
     
 }
 
-.main--info--content3--post a, .main--info--content3--friend a{
+.main--info--content3--post a{
     text-decoration: none;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 26px;
     line-height: 25px;
 }
 
