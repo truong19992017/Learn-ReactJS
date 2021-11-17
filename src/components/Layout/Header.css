@@ -58,14 +58,14 @@
     justify-content: flex-end;
 }
 
-.header--nav--mess, .header--nav--avatar{
+.header--nav--mess, .header--nav--avatar, .header--nav--friends{
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     margin-left: 20px;
 }
-.fa-paper-plane{
+.fa-paper-plane, .fa-user-friends{
     font-size: 22px;
 }
 
