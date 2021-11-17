@@ -9,10 +9,10 @@ class MainInfo extends Component {
                     <i className="fas fa-home" />
                     <h2>Trang cá nhân</h2>
                 </Link>
-                <a className="main--nav--info--friend">
+                <Link to="/friends" className="main--nav--info--friend">
                     <i className="fas fa-user-friends" />
                     <h2>Bạn bè</h2>
-                </a>
+                </Link>
             </div>
         );
     }
