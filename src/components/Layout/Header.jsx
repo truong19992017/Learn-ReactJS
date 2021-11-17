@@ -19,6 +19,7 @@ class Header extends Component {
                         </form>
                     </div>
                     <div className="header--nav">
+                        <div className="header--nav--friends"><i class="fas fa-user-friends"></i></div>
                         <div className="header--nav--mess"><i className="far fa-paper-plane" /></div>
                         <div className="header--nav--avatar"><img src="https://phunugioi.com/wp-content/uploads/2020/01/anh-avatar-supreme-dep-lam-dai-dien-facebook.jpg" alt="avatar" /></div>
                     </div>
