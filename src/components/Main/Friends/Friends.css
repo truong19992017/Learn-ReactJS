@@ -1,0 +1,60 @@
+.friends{
+    height: 150px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.friend{
+    display: flex;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    border-bottom: 1px black solid ;
+    position: relative;
+}
+
+.friend img{
+    height: 100px;
+    width: 100px;
+}
+
+.friend a{
+    display: flex;
+    align-items: center;
+    color: rgb(138, 138, 138);
+    padding-left: 40px;
+    font-size: 26px;
+}
+
+.friend a:hover{
+    background-color: white;
+}
+
+.acctionFriend{
+    height: 100%;
+    display: flex;
+    position: absolute;
+    right: 50px;
+    align-items: center;
+}
+
+.acctionFriend button{
+    height: 40px;
+    width: 100px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.mess{
+    background-color: #2d88ff;
+    border: 1px #2d88ff solid;
+    color: white;
+}
+
+.deleteFriend{
+    background-color: red;
+    border: 1px red solid;
+    color: white;
+}
